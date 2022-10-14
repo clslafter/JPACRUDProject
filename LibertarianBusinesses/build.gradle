@@ -15,6 +15,7 @@ repositories {
 
 dependencies {
 
+	implementation project(':JPALibertarianBusinesses')
 	implementation 'javax.servlet:jstl:1.2'
 	implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
 
