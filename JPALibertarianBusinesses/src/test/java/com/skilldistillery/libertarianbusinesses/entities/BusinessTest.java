@@ -42,9 +42,28 @@ class BusinessTest {
 	}
 
 	@Test
-	void test_business_mapping() {
+	void test_business_name_mapping() {
 		assertNotNull(business);
-		assertEquals("LP Business", business.getName());
+		assertEquals("Celicia Entertainment", business.getName());
+	}
+	
+	@Test
+	void test_business_logo_mapping() {
+		assertNotNull(business);
+		assertEquals("https://celicia.live/wp-content/uploads/2020/06/cropped-Celicia_Logo-white-no_Live.png", business.getLogo());
+	}
+	
+	@Test
+	void test_business_rating_mapping() {
+		assertNotNull(business);
+		assertEquals(3, business.getRating());
+	}
+	
+	@Test
+	void test_business_date_established_mapping() {
+		assertNotNull(business);
+		assertEquals(2014, business.getDateEst().getYear());
+		assertEquals(8, business.getDateEst().getMonth().getValue());
 	}
 
 }
