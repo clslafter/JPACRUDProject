@@ -62,8 +62,8 @@ class BusinessTest {
 	@Test
 	void test_business_date_established_mapping() {
 		assertNotNull(business);
-		assertEquals(2014, business.getDateEst().getYear());
-		assertEquals(8, business.getDateEst().getMonth().getValue());
+		assertEquals(2014, business.getYearEst());
+		
 	}
 
 }

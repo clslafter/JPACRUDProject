@@ -35,8 +35,8 @@ public class Business {
 	
 	private String reviews;
 	
-	@Column (name = "date_established")
-	private LocalDate dateEst;
+	@Column (name = "year_established")
+	private int yearEst;
 	
 	@Column (name = "create_date")
 	private LocalDate createDate;
@@ -137,12 +137,12 @@ public class Business {
 		this.reviews = reviews;
 	}
 
-	public LocalDate getDateEst() {
-		return dateEst;
+	public int getYearEst() {
+		return yearEst;
 	}
 
-	public void setDateEst(LocalDate dateEst) {
-		this.dateEst = dateEst;
+	public void setYearEst(int yearEst) {
+		this.yearEst = yearEst;
 	}
 
 	public LocalDate getCreateDate() {
@@ -165,7 +165,7 @@ public class Business {
 	public String toString() {
 		return "Business [id=" + id + ", name=" + name + ", logo=" + logo + ", description=" + description
 				+ ", website=" + website + ", email=" + email + ", phone=" + phone + ", hours=" + hours + ", rating="
-				+ rating + ", reviews=" + reviews + ", dateEst=" + dateEst + ", createDate=" + createDate
+				+ rating + ", reviews=" + reviews + ", dateEst=" + yearEst + ", createDate=" + createDate
 				+ ", updateDate=" + updateDate + "]";
 	}
 	

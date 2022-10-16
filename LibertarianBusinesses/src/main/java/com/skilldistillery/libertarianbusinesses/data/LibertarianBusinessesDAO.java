@@ -10,6 +10,7 @@ public interface LibertarianBusinessesDAO {
 	
 	Business findById (int businessId);
 	
+	
 	Business create(Business business);
 	
 	Business update(int businessId, Business business);
