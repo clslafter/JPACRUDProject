@@ -15,6 +15,8 @@ At the details page, the user can modify the details of that business or delete 
 
 Ultimately, it is my goal to put in checks and balances in this project so that the users are carefully vetted and there are ways to prevent spamming with input that is from outside the community. I also want to add a way that the users can rate the businesses in a way that gets listed and averaged and owners and users can review each other. Sort of like a Libertarian Yelp.
 
+I also want to add more complicated search options to search by keyword, payment methods, business type, etc.
+
 
 
 
