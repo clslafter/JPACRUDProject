@@ -4,16 +4,15 @@
 
 This project is a full stack application that performs basic CRUD operations on a single table in a database.
 
-This project is tracking libertarian/voluntaryist businesses for the purposed of allowing like-minded people to do business with each other and find each other easily.
+This project is tracking local businesses for the purposed of allowing like-minded people to do business with each other and find each other easily.
 
-This is a project that was chosen based on a strong input of need from that community.
-It is my plan to continue this project until there is a full-fledged project that can be of use to the members of that community.
+It is my plan to continue this project until there is a full-fledged project that can be of use to the members of a local community.
 
 For this first iteration, the user is brought to a homepage where they are prompted to add a business, and are given a list of businesses to on each one to view the details.
 
 At the details page, the user can modify the details of that business or delete it from the database.
 
-Ultimately, it is my goal to put in checks and balances in this project so that the users are carefully vetted and there are ways to prevent spamming with input that is from outside the community. I also want to add a way that the users can rate the businesses in a way that gets listed and averaged and owners and users can review each other. Sort of like a Libertarian Yelp.
+Ultimately, it is my goal to put in checks and balances in this project so that the users are carefully vetted and there are ways to prevent spamming with input that is from outside the community. I also want to add a way that the users can rate the businesses in a way that gets listed and averaged and owners and users can review each other. Sort of like a Local Yelp.
 
 I also want to add more complicated search options to search by keyword, payment methods, business type, etc.
 
